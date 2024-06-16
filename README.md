@@ -6,10 +6,15 @@ The Crop Recommendation System is a web application designed to assist farmers i
 ## Abstract
 
 This project aims to provide an intelligent and user-friendly crop recommendation system for farmers. Utilizing machine learning algorithms, it analyzes environmental parameters such as soil nutrients (N, P, K), temperature, humidity, pH level, and rainfall to suggest the most suitable crop to cultivate. This helps in maximizing yield, optimizing resource usage, and supporting sustainable agriculture.
+![Screenshot 2024-06-11 125907](https://github.com/Badri467/Crop-Recommendation/assets/114822924/488348f9-f575-4cc9-92f2-bcfdb1041d89)
 
 ## Introduction
 
 Agriculture is a critical sector that requires precise planning and resource management. The Crop Recommendation System is designed to aid farmers by providing scientifically-backed crop recommendations based on environmental data. By integrating machine learning models with a user-friendly web interface, this system empowers farmers to make informed decisions, leading to better crop management and higher productivity.
+![Screenshot 2024-06-11 125941](https://github.com/Badri467/Crop-Recommendation/assets/114822924/0ef22a93-d36e-4b59-8913-0f8e9b9231cd)
+
+![Screenshot 2024-06-11 130022](https://github.com/Badri467/Crop-Recommendation/assets/114822924/eee503c3-46e7-4be5-8f56-f31069374f23)
+
 
 ## Key Features
 
