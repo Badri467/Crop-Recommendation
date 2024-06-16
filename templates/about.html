@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="static/img/images.png">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container-fluid p-2" style="margin: 0px; width: 100%;">
+            <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-success rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-success); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" onclick="location.href='/home'" aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active rounded-5" id="about-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">About</button>
+                </li>
+              </ul>
+        </div>
+        <p> </p>
+    </div>
+
+    <div class="container mt-4">
+        <h1>About Crop Recommendation System</h1>
+        <p>
+            The Crop Recommendation System is a web application designed to assist farmers in selecting the most suitable crop for cultivation based on various environmental factors. This project leverages advanced machine learning techniques to analyze soil nutrients, weather conditions, and other relevant data to provide personalized crop recommendations.
+        </p>
+        <h2>Objectives</h2>
+        <ul>
+            <li><strong>Increase Crop Yield:</strong> Provide data-driven crop recommendations to optimize yield.</li>
+            <li><strong>Support Sustainable Farming:</strong> Encourage efficient use of resources such as soil nutrients and water.</li>
+            <li><strong>Empower Farmers:</strong> Enable farmers to make informed decisions based on scientific data.</li>
+        </ul>
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>User Authentication:</strong> Secure signup and login functionality to protect user data.</li>
+            <li><strong>Crop Prediction:</strong> Analyzes soil nutrients (N, P, K), temperature, humidity, pH, and rainfall to recommend the best crop.</li>
+            <li><strong>Database Integration:</strong> Stores user data and crop recommendations in a PostgreSQL database.</li>
+            <li><strong>Machine Learning:</strong> Utilizes the XGBoost algorithm for accurate predictions.</li>
+            <li><strong>User Interface:</strong> Easy-to-use forms and clear presentation of recommendations.</li>
+        </ul>
+        <h2>System Requirements</h2>
+        <ul>
+            <li>Python 3.8+</li>
+            <li>Flask 2.0+</li>
+            <li>pandas</li>
+            <li>scikit-learn</li>
+            <li>xgboost</li>
+            <li>psycopg2</li>
+            <li>Bootstrap 5</li>
+            <li>PostgreSQL 12+</li>
+        </ul>
+        <h2>Advantages</h2>
+        <ul>
+            <li><strong>Enhanced Crop Yield:</strong> Optimizes crop selection based on scientific analysis.</li>
+            <li><strong>Resource Optimization:</strong> Promotes efficient use of fertilizers and water.</li>
+            <li><strong>Personalized Recommendations:</strong> Tailored advice based on individual user data.</li>
+            <li><strong>User-Friendly:</strong> Easy to navigate interface suitable for all users.</li>
+            <li><strong>Sustainability:</strong> Supports sustainable farming practices.</li>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-whowXyhe+0+PN8F9tLt6KlYp7PPJ+V6ERL8zCph/9VV3r0If2wFcrT3ezWNlFI/V" crossorigin="anonymous"></script>
+</body>
+</html>
